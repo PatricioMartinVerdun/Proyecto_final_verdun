@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . '/includes/funciones.php';
-$u = requerir_login();   // sin sesión válida redirige a login.php
+$u = requerir_login();  
 
 $titulo = 'Mi panel';
 require __DIR__ . '/includes/header.php';
