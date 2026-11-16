@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     redirigir($u['rol'] === 'admin' ? 'admin_usuarios.php' : 'panel.php');
                 }
             } else {
-                // Mensaje genérico: no revela si falló el correo o la contraseña
+           
                 $errores[] = 'Correo o contraseña incorrectos.';
             }
         }
